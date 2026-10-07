@@ -1,0 +1,6 @@
+{
+  "scene_name": "S2B_MSIL2A_20241231T102339_N0511_R065_T30NYL_20241231T141141.SAFE",
+  "scene_id": "ee9e2f6e-77a1-4833-aef2-afdbe1fb38c2",
+  "red_band": "C:\\Users\\User\\Downloads\\causatwin_full\\src\\..\\outputs\\data\\sentinel_bands\\B04_red.jp2",
+  "nir_band": "C:\\Users\\User\\Downloads\\causatwin_full\\src\\..\\outputs\\data\\sentinel_bands\\B08_nir.jp2"
+}

@@ -1,0 +1,9 @@
+{
+  "national_population": 29340248,
+  "national_districts": 216,
+  "national_hospitals_osm": 469,
+  "national_clinics_osm": 463,
+  "national_population_per_hospital": 62559,
+  "national_population_per_health_facility": 31481,
+  "source": "Computed from the same OpenStreetMap Ghana extract and GSS 2021 census used throughout this pipeline, not an external authority (WHO explicitly states no global norm exists for hospital-to-population density)."
+}

@@ -1,0 +1,26 @@
+{
+  "hospitals": 9,
+  "clinics": 16,
+  "health_total": 25,
+  "schools": 78,
+  "universities": 7,
+  "roads_total": 3871,
+  "roads_by_type": {
+    "trunk": 48,
+    "tertiary": 71,
+    "service": 407,
+    "residential": 2788,
+    "unclassified": 201,
+    "trunk_link": 19,
+    "steps": 4,
+    "path": 175,
+    "footway": 100,
+    "secondary": 9,
+    "tertiary_link": 11,
+    "track": 37,
+    "road": 1
+  },
+  "buildings": 43498,
+  "rivers_waterways": 20,
+  "named_places": 42
+}

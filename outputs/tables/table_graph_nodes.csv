@@ -1,0 +1,14 @@
+Node,Role,Description
+rainfall,exogenous,"Mean annual rainfall (mm/yr), live NASA POWER"
+vegetation_cover,exogenous,"Dense vegetation cover fraction, live Sentinel-2 NDVI"
+building_density,exogenous,"Buildings per km^2, OSM"
+drainage_capacity,intervenable,"Drainage capacity factor, baseline=1.0 (assumed, not measured)"
+runoff_coefficient,mediator,"Rational Method C, composite of vegetation and building density"
+peak_runoff_index,mediator,"Rational Method Q=C*i*A, normalized 0-100"
+population,exogenous,"Total population, GSS 2021 census"
+hospitals,intervenable,"Mapped hospital count, OSM (interventions add hospitals)"
+low_capacity_road_pct,intervenable,"Share of low-capacity road segments, OSM (interventions convert to arterial)"
+flood_risk_score,outcome,0-100 flood concern score
+health_access_score,outcome,0-100 health-access concern score
+traffic_score,outcome,0-100 traffic concern score
+emergency_response_score,outcome,0-100 emergency-response concern score

@@ -1,0 +1,59 @@
+{
+  "note": "Hospital, road, and drainage costs are anchored to real, cited Ghana infrastructure benchmarks applied through stated extrapolation assumptions (see ranking.py module docstring); the medium vegetation restoration cost scenario is used here, with the full low/medium/high sensitivity reported separately in cost_sensitivity_results.json.",
+  "ranking": [
+    {
+      "name": "do(drainage_capacity = 1.2)  [+20% drainage capacity]",
+      "flood_benefit": 6.4,
+      "emergency_benefit": 2.1,
+      "total_benefit": 8.5,
+      "cost_usd_millions": 4.32,
+      "benefit_per_cost_usd_million": 1.968,
+      "rank": 1
+    },
+    {
+      "name": "do(drainage_capacity = 1.5, vegetation += 15pp)  [combined flood package]",
+      "flood_benefit": 15.9,
+      "emergency_benefit": 5.2,
+      "total_benefit": 21.1,
+      "cost_usd_millions": 12.34,
+      "benefit_per_cost_usd_million": 1.71,
+      "rank": 2
+    },
+    {
+      "name": "do(drainage_capacity = 1.5)  [+50% drainage capacity]",
+      "flood_benefit": 12.8,
+      "emergency_benefit": 4.2,
+      "total_benefit": 17.0,
+      "cost_usd_millions": 10.49,
+      "benefit_per_cost_usd_million": 1.621,
+      "rank": 3
+    },
+    {
+      "name": "do(vegetation += 15pp)  [vegetation restoration]",
+      "flood_benefit": 4.6,
+      "emergency_benefit": 1.5,
+      "total_benefit": 6.1,
+      "cost_usd_millions": 4.32,
+      "benefit_per_cost_usd_million": 1.412,
+      "rank": 4
+    },
+    {
+      "name": "do(low_capacity_road_pct -= 15pp)  [arterial road upgrade]",
+      "flood_benefit": 0.0,
+      "emergency_benefit": 5.0,
+      "total_benefit": 5.0,
+      "cost_usd_millions": 13.0,
+      "benefit_per_cost_usd_million": 0.385,
+      "rank": 5
+    },
+    {
+      "name": "do(hospitals += 3)  [add 3 hospitals]",
+      "flood_benefit": 0.0,
+      "emergency_benefit": 1.5,
+      "total_benefit": 1.5,
+      "cost_usd_millions": 18.0,
+      "benefit_per_cost_usd_million": 0.083,
+      "rank": 6
+    }
+  ]
+}

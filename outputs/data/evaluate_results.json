@@ -1,0 +1,30 @@
+{
+  "catchment_area_sensitivity": {
+    "97.1 km^2 (Sentinel-covered area)": 55.5,
+    "150 km^2 (illustrative larger estimate)": 55.5,
+    "50 km^2 (illustrative smaller estimate)": 55.5
+  },
+  "catchment_area_invariance_note": "The peak runoff index is mathematically invariant to the assumed catchment area by construction (area cancels in the numerator/reference ratio), confirmed above rather than presented as an empirical robustness finding.",
+  "intervention_sign_check": {
+    "all_correct_sign": true,
+    "checks": [
+      {
+        "name": "do(drainage_capacity = 1.2)  [+20% drainage capacity]",
+        "correct_sign": true
+      },
+      {
+        "name": "do(drainage_capacity = 1.5)  [+50% drainage capacity]",
+        "correct_sign": true
+      },
+      {
+        "name": "do(vegetation += 15pp)  [vegetation restoration]",
+        "correct_sign": true
+      },
+      {
+        "name": "do(drainage_capacity = 1.5, vegetation += 15pp)  [combined flood package]",
+        "correct_sign": true
+      }
+    ]
+  },
+  "decision_improvement_note": "Not evaluated: no historical Cape Coast intervention-outcome dataset exists against which to validate the model's predictions, since no such interventions have been implemented and measured. Reported honestly as not evaluated rather than fabricated, consistent with the same limitation reported for CityMind."
+}

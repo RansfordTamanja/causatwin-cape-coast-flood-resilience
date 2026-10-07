@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+inputs/ghana-latest.osm.pbf
+outputs/data/sentinel_bands/

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Baseline (observed)",
+    "kind": "baseline",
+    "mean": 55.3,
+    "p5": 50.3,
+    "p50": 55.2,
+    "p95": 60.6,
+    "n_samples": 2000
+  },
+  {
+    "name": "do(drainage_capacity = 1.2)  [+20% drainage capacity]",
+    "kind": "drainage",
+    "mean": 48.9,
+    "p5": 44.8,
+    "p50": 48.9,
+    "p95": 53.3,
+    "n_samples": 2000
+  },
+  {
+    "name": "do(drainage_capacity = 1.5)  [+50% drainage capacity]",
+    "kind": "drainage",
+    "mean": 42.6,
+    "p5": 39.2,
+    "p50": 42.5,
+    "p95": 46.1,
+    "n_samples": 2000
+  },
+  {
+    "name": "do(vegetation += 15pp)  [vegetation restoration]",
+    "kind": "vegetation",
+    "mean": 50.7,
+    "p5": 46.2,
+    "p50": 50.5,
+    "p95": 55.4,
+    "n_samples": 2000
+  },
+  {
+    "name": "do(hospitals += 3)  [add 3 hospitals]",
+    "kind": "health",
+    "mean": 55.3,
+    "p5": 50.3,
+    "p50": 55.2,
+    "p95": 60.6,
+    "n_samples": 2000
+  },
+  {
+    "name": "do(low_capacity_road_pct -= 15pp)  [arterial road upgrade]",
+    "kind": "traffic",
+    "mean": 55.3,
+    "p5": 50.3,
+    "p50": 55.2,
+    "p95": 60.6,
+    "n_samples": 2000
+  },
+  {
+    "name": "do(drainage_capacity = 1.5, vegetation += 15pp)  [combined flood package]",
+    "kind": "combined",
+    "mean": 39.5,
+    "p5": 36.5,
+    "p50": 39.4,
+    "p95": 42.7,
+    "n_samples": 2000
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "name": "do(drainage_capacity = 1.2)  [+20% drainage capacity]",
+    "flood_benefit": 6.4,
+    "emergency_benefit": 2.1,
+    "health_benefit": 0.0,
+    "traffic_benefit": 0.0,
+    "cost": 4.32,
+    "dominated": false,
+    "dominated_by": []
+  },
+  {
+    "name": "do(drainage_capacity = 1.5)  [+50% drainage capacity]",
+    "flood_benefit": 12.8,
+    "emergency_benefit": 4.2,
+    "health_benefit": 0.0,
+    "traffic_benefit": 0.0,
+    "cost": 10.49,
+    "dominated": false,
+    "dominated_by": []
+  },
+  {
+    "name": "do(vegetation += 15pp)  [vegetation restoration]",
+    "flood_benefit": 4.6,
+    "emergency_benefit": 1.5,
+    "health_benefit": 0.0,
+    "traffic_benefit": 0.0,
+    "cost": 4.32,
+    "dominated": true,
+    "dominated_by": [
+      "do(drainage_capacity = 1.2)  [+20% drainage capacity]"
+    ]
+  },
+  {
+    "name": "do(hospitals += 3)  [add 3 hospitals]",
+    "flood_benefit": 0.0,
+    "emergency_benefit": 1.5,
+    "health_benefit": 4.6,
+    "traffic_benefit": 0.0,
+    "cost": 18.0,
+    "dominated": false,
+    "dominated_by": []
+  },
+  {
+    "name": "do(low_capacity_road_pct -= 15pp)  [arterial road upgrade]",
+    "flood_benefit": 0.0,
+    "emergency_benefit": 5.0,
+    "health_benefit": 0.0,
+    "traffic_benefit": 15.0,
+    "cost": 13.0,
+    "dominated": false,
+    "dominated_by": []
+  },
+  {
+    "name": "do(drainage_capacity = 1.5, vegetation += 15pp)  [combined flood package]",
+    "flood_benefit": 15.9,
+    "emergency_benefit": 5.2,
+    "health_benefit": 0.0,
+    "traffic_benefit": 0.0,
+    "cost": 12.34,
+    "dominated": false,
+    "dominated_by": []
+  }
+]

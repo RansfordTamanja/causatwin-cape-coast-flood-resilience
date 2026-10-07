@@ -1,0 +1,97 @@
+{
+  "total_districts": 216,
+  "top_15": [
+    {
+      "district": "Kumasi Metropolitan",
+      "region": "Ashanti",
+      "population": 2391823,
+      "rank": 1
+    },
+    {
+      "district": "Accra Metropolitan",
+      "region": "Greater Accra",
+      "population": 1771120,
+      "rank": 2
+    },
+    {
+      "district": "Sekondi-Takoradi Metropolitan",
+      "region": "Western",
+      "population": 806116,
+      "rank": 3
+    },
+    {
+      "district": "Asokore Mampong Municipality",
+      "region": "Ashanti",
+      "population": 643817,
+      "rank": 4
+    },
+    {
+      "district": "Ga South Municipality",
+      "region": "Greater Accra",
+      "population": 622226,
+      "rank": 5
+    },
+    {
+      "district": "Obuasi Municipality",
+      "region": "Ashanti",
+      "population": 494200,
+      "rank": 6
+    },
+    {
+      "district": "Kpandai",
+      "region": "Northern",
+      "population": 453871,
+      "rank": 7
+    },
+    {
+      "district": "Wa Municipal",
+      "region": "Upper West",
+      "population": 409268,
+      "rank": 8
+    },
+    {
+      "district": "Ga West Municipality",
+      "region": "Greater Accra",
+      "population": 332708,
+      "rank": 9
+    },
+    {
+      "district": "Tema Metropolitan",
+      "region": "Greater Accra",
+      "population": 328746,
+      "rank": 10
+    },
+    {
+      "district": "Awutu Senya East Municipality",
+      "region": "Central",
+      "population": 316208,
+      "rank": 11
+    },
+    {
+      "district": "Gomoa East",
+      "region": "Central",
+      "population": 262691,
+      "rank": 12
+    },
+    {
+      "district": "Ledzokuku-Krowor Municipality",
+      "region": "Greater Accra",
+      "population": 242468,
+      "rank": 13
+    },
+    {
+      "district": "Tamale Metropolis",
+      "region": "Northern",
+      "population": 239585,
+      "rank": 14
+    },
+    {
+      "district": "Hohoe Municipality",
+      "region": "Volta",
+      "population": 237618,
+      "rank": 15
+    }
+  ],
+  "cape_coast_rank": 22,
+  "cape_coast_population": 205662
+}

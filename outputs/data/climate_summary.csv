@@ -1,0 +1,5 @@
+metric,value,unit,source
+mean_annual_temp_c,26.45,degrees C,"NASA POWER API (live), point query"
+mean_annual_rainfall_mm,1688.1,mm/year,"NASA POWER API (live), point query"
+max_daily_rainfall_mm,80.8,mm/day,"NASA POWER API (live), point query"
+data_mode,live,-,"NASA POWER daily point API, 20200101-20241231"

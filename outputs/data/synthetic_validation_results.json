@@ -1,0 +1,232 @@
+{
+  "all_passed": true,
+  "n_scenarios": 5,
+  "results": [
+    {
+      "city": "Synth-A (low vegetation, high rainfall)",
+      "intervention": {
+        "drainage_capacity_factor": 2.0
+      },
+      "checks": {
+        "runoff_coefficient": {
+          "expected": 0.7937,
+          "actual": 0.7937,
+          "diff": 0.0,
+          "passed": true
+        },
+        "peak_runoff_index": {
+          "expected": 38.4848,
+          "actual": 38.4848,
+          "diff": 0.0,
+          "passed": true
+        },
+        "flood_risk_score": {
+          "expected": 37.197,
+          "actual": 37.197,
+          "diff": 0.0,
+          "passed": true
+        },
+        "health_access_score": {
+          "expected": 50.0,
+          "actual": 50.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "traffic_score": {
+          "expected": 60.0,
+          "actual": 60.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "emergency_response_score": {
+          "expected": 49.0657,
+          "actual": 49.0657,
+          "diff": 0.0,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "city": "Synth-B (high vegetation, low rainfall)",
+      "intervention": {
+        "vegetation_pct_override": 95.0
+      },
+      "checks": {
+        "runoff_coefficient": {
+          "expected": 0.2313,
+          "actual": 0.2313,
+          "diff": 0.0,
+          "passed": true
+        },
+        "peak_runoff_index": {
+          "expected": 5.6061,
+          "actual": 5.6061,
+          "diff": 0.0,
+          "passed": true
+        },
+        "flood_risk_score": {
+          "expected": 29.2045,
+          "actual": 29.2045,
+          "diff": 0.0,
+          "passed": true
+        },
+        "health_access_score": {
+          "expected": 50.0,
+          "actual": 50.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "traffic_score": {
+          "expected": 30.0,
+          "actual": 30.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "emergency_response_score": {
+          "expected": 36.4015,
+          "actual": 36.4015,
+          "diff": 0.0,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "city": "Synth-C (mid vegetation, mid rainfall, hospitals intervention)",
+      "intervention": {
+        "hospitals_override": 15
+      },
+      "checks": {
+        "runoff_coefficient": {
+          "expected": 0.575,
+          "actual": 0.575,
+          "diff": 0.0,
+          "passed": true
+        },
+        "peak_runoff_index": {
+          "expected": 27.8788,
+          "actual": 27.8788,
+          "diff": 0.0,
+          "passed": true
+        },
+        "flood_risk_score": {
+          "expected": 45.9091,
+          "actual": 45.9091,
+          "diff": 0.0,
+          "passed": true
+        },
+        "health_access_score": {
+          "expected": 40.0,
+          "actual": 40.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "traffic_score": {
+          "expected": 50.0,
+          "actual": 50.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "emergency_response_score": {
+          "expected": 45.303,
+          "actual": 45.303,
+          "diff": 0.0,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "city": "Synth-D (road intervention, no flood effect expected)",
+      "intervention": {
+        "low_capacity_pct_override": 40.0
+      },
+      "checks": {
+        "runoff_coefficient": {
+          "expected": 0.7,
+          "actual": 0.7,
+          "diff": 0.0,
+          "passed": true
+        },
+        "peak_runoff_index": {
+          "expected": 50.9091,
+          "actual": 50.9091,
+          "diff": 0.0,
+          "passed": true
+        },
+        "flood_risk_score": {
+          "expected": 50.6818,
+          "actual": 50.6818,
+          "diff": 0.0,
+          "passed": true
+        },
+        "health_access_score": {
+          "expected": 50.0,
+          "actual": 50.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "traffic_score": {
+          "expected": 40.0,
+          "actual": 40.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "emergency_response_score": {
+          "expected": 46.8939,
+          "actual": 46.8939,
+          "diff": 0.0,
+          "passed": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "city": "Synth-E (combined drainage and vegetation intervention)",
+      "intervention": {
+        "drainage_capacity_factor": 1.5,
+        "vegetation_pct_override": 35.0
+      },
+      "checks": {
+        "runoff_coefficient": {
+          "expected": 0.6062,
+          "actual": 0.6062,
+          "diff": 0.0,
+          "passed": true
+        },
+        "peak_runoff_index": {
+          "expected": 32.6599,
+          "actual": 32.6599,
+          "diff": 0.0,
+          "passed": true
+        },
+        "flood_risk_score": {
+          "expected": 45.3283,
+          "actual": 45.3283,
+          "diff": 0.0,
+          "passed": true
+        },
+        "health_access_score": {
+          "expected": 62.5,
+          "actual": 62.5,
+          "diff": 0.0,
+          "passed": true
+        },
+        "traffic_score": {
+          "expected": 55.0,
+          "actual": 55.0,
+          "diff": 0.0,
+          "passed": true
+        },
+        "emergency_response_score": {
+          "expected": 54.2761,
+          "actual": 54.2761,
+          "diff": 0.0,
+          "passed": true
+        }
+      },
+      "passed": true
+    }
+  ]
+}

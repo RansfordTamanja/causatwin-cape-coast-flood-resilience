@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "id": "rainfall",
+      "role": "exogenous",
+      "desc": "Mean annual rainfall (mm/yr), live NASA POWER"
+    },
+    {
+      "id": "vegetation_cover",
+      "role": "exogenous",
+      "desc": "Dense vegetation cover fraction, live Sentinel-2 NDVI"
+    },
+    {
+      "id": "building_density",
+      "role": "exogenous",
+      "desc": "Buildings per km^2, OSM"
+    },
+    {
+      "id": "drainage_capacity",
+      "role": "intervenable",
+      "desc": "Drainage capacity factor, baseline=1.0 (assumed, not measured)"
+    },
+    {
+      "id": "runoff_coefficient",
+      "role": "mediator",
+      "desc": "Rational Method C, composite of vegetation and building density"
+    },
+    {
+      "id": "peak_runoff_index",
+      "role": "mediator",
+      "desc": "Rational Method Q=C*i*A, normalized 0-100"
+    },
+    {
+      "id": "population",
+      "role": "exogenous",
+      "desc": "Total population, GSS 2021 census"
+    },
+    {
+      "id": "hospitals",
+      "role": "intervenable",
+      "desc": "Mapped hospital count, OSM (interventions add hospitals)"
+    },
+    {
+      "id": "low_capacity_road_pct",
+      "role": "intervenable",
+      "desc": "Share of low-capacity road segments, OSM (interventions convert to arterial)"
+    },
+    {
+      "id": "flood_risk_score",
+      "role": "outcome",
+      "desc": "0-100 flood concern score"
+    },
+    {
+      "id": "health_access_score",
+      "role": "outcome",
+      "desc": "0-100 health-access concern score"
+    },
+    {
+      "id": "traffic_score",
+      "role": "outcome",
+      "desc": "0-100 traffic concern score"
+    },
+    {
+      "id": "emergency_response_score",
+      "role": "outcome",
+      "desc": "0-100 emergency-response concern score"
+    }
+  ],
+  "edges": [
+    {
+      "source": "rainfall",
+      "target": "peak_runoff_index"
+    },
+    {
+      "source": "vegetation_cover",
+      "target": "runoff_coefficient"
+    },
+    {
+      "source": "building_density",
+      "target": "runoff_coefficient"
+    },
+    {
+      "source": "drainage_capacity",
+      "target": "peak_runoff_index"
+    },
+    {
+      "source": "runoff_coefficient",
+      "target": "peak_runoff_index"
+    },
+    {
+      "source": "peak_runoff_index",
+      "target": "flood_risk_score"
+    },
+    {
+      "source": "population",
+      "target": "flood_risk_score"
+    },
+    {
+      "source": "population",
+      "target": "health_access_score"
+    },
+    {
+      "source": "hospitals",
+      "target": "health_access_score"
+    },
+    {
+      "source": "low_capacity_road_pct",
+      "target": "traffic_score"
+    },
+    {
+      "source": "flood_risk_score",
+      "target": "emergency_response_score"
+    },
+    {
+      "source": "health_access_score",
+      "target": "emergency_response_score"
+    },
+    {
+      "source": "traffic_score",
+      "target": "emergency_response_score"
+    }
+  ]
+}
